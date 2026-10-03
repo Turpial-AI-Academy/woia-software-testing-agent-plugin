@@ -1,0 +1,43 @@
+{
+  "schema": "com.turpial.testing-evidence/v1",
+  "status": "TESTING_BLOCKED",
+  "source": {
+    "repository": "",
+    "branch_or_ref": "",
+    "tested_source_head": "",
+    "reviewed_source_head": null,
+    "head_match": "not_provided",
+    "tracked_source_mutated_during_testing": false,
+    "previous_source_head": null
+  },
+  "specification": {
+    "reference": "",
+    "acceptance_criteria": []
+  },
+  "risk": {
+    "summary": "",
+    "material_dimensions": [],
+    "residual_risks": []
+  },
+  "traceability": [],
+  "executions": [],
+  "failures": {
+    "candidate": [],
+    "pre_existing": [],
+    "flaky": []
+  },
+  "blocked_checks": [],
+  "skipped_checks": [],
+  "acceptance_reconciliation": {
+    "proven": [],
+    "disproven": [],
+    "blocked": [],
+    "not_covered": [],
+    "not_applicable": []
+  },
+  "asps": {
+    "contract": "testing/v1",
+    "gate_eligible": false,
+    "gate_rule": "reviewed_source_head must equal tested_source_head and testing status must be TESTING_PASS"
+  }
+}

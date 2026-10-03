@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-software-testing",
+  "version": "0.5.0",
+  "description": "Repository-aware software testing capability for risk-proportionate test design, execution, traceability, and evidence.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-software-testing-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-software-testing-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "software",
+    "testing"
+  ]
+}

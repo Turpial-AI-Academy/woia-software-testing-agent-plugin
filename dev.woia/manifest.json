@@ -1,0 +1,25 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "version": "0.5.0",
+  "authoring_profile": "thin",
+  "department": "software",
+  "capability": "testing",
+  "skill": "testing",
+  "source_lineage": {
+    "repository": "Turpial-AI-Academy/testing-agent-plugin",
+    "version": "1.0.1",
+    "commit": "43f418d50670de7a8b910e3d21a395d8186bf542"
+  },
+  "migrated_portable_paths": [
+    "skills/testing/SKILL.md",
+    "skills/testing/assets/README.md",
+    "skills/testing/assets/testing-evidence.template.md",
+    "skills/testing/assets/testing-handoff.template.json",
+    "skills/testing/references/EXECUTION_PROTOCOL.md",
+    "skills/testing/references/README.md",
+    "skills/testing/references/RISK_MODEL.md",
+    "skills/testing/references/TESTING_STANDARD.md",
+    "skills/testing/references/TEST_SELECTION.md",
+    "skills/testing/references/TRACEABILITY_AND_EVIDENCE.md"
+  ]
+}
