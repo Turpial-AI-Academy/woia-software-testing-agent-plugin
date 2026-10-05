@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-software-testing",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Repository-aware software testing capability for risk-proportionate test design, execution, traceability, and evidence.",
   "author": {
     "name": "Turpial AI Academy",
