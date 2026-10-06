@@ -7,6 +7,11 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 
 const skillRoot = path.join(ROOT, "skills", "testing");
 
+test("testing gate requires review and testing on the same exact HEAD", async () => {
+  const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
+  assert.match(skill, /require the reviewed source HEAD and tested source HEAD to be identical/i);
+});
+
 function section(markdown, heading) {
   const result = markdown.split(/^##\s+/m).find((candidate) => heading.test(candidate.split(/\r?\n/, 1)[0]));
   assert.ok(result, `missing section matching ${heading}`);
