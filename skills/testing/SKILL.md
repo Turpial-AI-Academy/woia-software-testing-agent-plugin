@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works across languages, repositories, and test frameworks; execution adapts to the target repository's actual test runner, build, runtime, environment, integration boundaries, and risk profile.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.6"
+  version: "0.5.7"
 ---
 
 # testing
